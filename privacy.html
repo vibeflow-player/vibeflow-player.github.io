@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - VibeFlow</title>
+    <title>Privacy Policy - MusiFlow</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,31 +18,32 @@
                 style="text-decoration: none; color: var(--text-secondary); margin-bottom: 2rem; display: inline-block;">←
                 Back to Home</a>
             <h1>Privacy Policy</h1>
-            <p class="subtitle">Last Updated: August 11, 2026</p>
+            <p class="subtitle">Last Updated: September 2, 2026</p>
         </header>
 
         <main class="content-card policy-content">
             <section>
                 <h2>🔒 Our Privacy Commitment</h2>
-                <p>VibeFlow ("we", "us", or "our") respects your privacy. This Privacy Policy explains what information
-                    we handle when you use our music player application, and just as importantly, what we do not.</p>
+                <p>MusiFlow ("we", "us", or "our") respects your privacy. This Privacy Policy explains what
+                    information we handle when you use our music player application, and just as importantly, what we do not.</p>
             </section>
 
             <div class="notice-box">
-                <p><strong>The short version:</strong> VibeFlow does not collect your personal data. We do not use
+                <p><strong>The short version:</strong> MusiFlow does not collect your personal data. We do not use
                     analytics, advertising, or cross-app tracking. Your music library, playlists, and settings are stored
-                    only on your device.</p>
+                    only on your device. The microphone is used solely for the optional song recognition feature, and
+                    only while you actively use it.</p>
             </div>
 
             <section>
                 <h2>1. Introduction</h2>
-                <p>VibeFlow is a music player application focused on simple playback, playlist management, and a smooth
-                    listening experience. By using VibeFlow, you agree to the practices described in this policy.</p>
+                <p>MusiFlow is a music player application focused on simple playback, playlist management, and a smooth
+                    listening experience. By using MusiFlow, you agree to the practices described in this policy.</p>
             </section>
 
             <section>
                 <h2>2. Information We Handle</h2>
-                <p>VibeFlow is designed to minimize data handling. The following information is generated and used
+                <p>MusiFlow is designed to minimize data handling. The following information is generated and used
                     entirely on your own device, and is never uploaded to us or to any server we control:</p>
                 <ul>
                     <li>Your music library and imported files;</li>
@@ -50,13 +51,14 @@
                     <li>App settings and preferences;</li>
                     <li>In-app cache required for playback.</li>
                 </ul>
-                <p>No account or registration is required to use VibeFlow. We do not collect your name, email address,
-                    phone number, precise location, contacts, microphone audio, or camera data.</p>
+                <p>No account or registration is required to use MusiFlow. We do not collect your name, email address,
+                    phone number, precise location, contacts, or camera data. Microphone access is handled separately
+                    and is described in Section 4 below.</p>
             </section>
 
             <section>
                 <h2>3. No Analytics, No Advertising, No Tracking</h2>
-                <p>VibeFlow does <strong>not</strong> include any analytics or advertising SDKs, and does not engage in
+                <p>MusiFlow does <strong>not</strong> include any analytics or advertising SDKs, and does not engage in
                     cross-app tracking. Specifically:</p>
                 <ul>
                     <li>We do not collect device identifiers, including the Identifier for Advertisers (IDFA);</li>
@@ -67,13 +69,35 @@
             </section>
 
             <section>
-                <h2>4. Third-Party Content</h2>
-                <p>VibeFlow may let you access music, cover artwork, lyrics, or related media from third-party content
-                    providers or public sources. When the app retrieves such content on your behalf:</p>
+                <h2>4. Song Recognition (Microphone Use)</h2>
+                <p>MusiFlow offers an optional song recognition feature that identifies a song playing around you. When
+                    you use this feature:</p>
                 <ul>
-                    <li>The app sends only what is necessary to fetch the public content you requested (for example, a
-                        search query or a content identifier);</li>
-                    <li>These requests do not include your personal data or device identifiers;</li>
+                    <li>The microphone is activated <strong>only while recognition is actively running</strong>, and
+                        only after you grant microphone permission. You can revoke this permission at any time in iOS
+                        Settings;</li>
+                    <li>Short audio signatures captured during recognition are processed by Apple's ShazamKit service
+                        to find a match. This processing is performed by Apple, and is subject to Apple's privacy
+                        policy;</li>
+                    <li>We do not receive, store, or listen to your microphone recordings, and your audio is not used
+                        to build any profile about you;</li>
+                    <li>As soon as recognition ends — a match is found, or you stop the feature — the microphone is
+                        released immediately.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Third-Party Content</h2>
+                <p>MusiFlow lets you discover and play music, cover artwork, and lyrics from third-party content
+                    providers and public sources. When the app retrieves such content on your behalf:</p>
+                <ul>
+                    <li>Search requests send your search terms to public content platforms to find the media you asked
+                        for;</li>
+                    <li>Playback and download requests send only a content identifier needed to fetch the public media
+                        stream;</li>
+                    <li>Lyrics lookups send the track name, artist name, album name, and duration to public lyrics
+                        services;</li>
+                    <li>Cover artwork is loaded directly from the content platforms' image servers;</li>
                     <li>These third-party platforms operate under their own independent privacy policies, which we
                         encourage you to review.</li>
                 </ul>
@@ -81,56 +105,58 @@
             </section>
 
             <section>
-                <h2>5. Data Security</h2>
+                <h2>6. Data Security</h2>
                 <p>Network requests made by the app (for example, to fetch public music metadata) are transmitted over
                     encrypted secure protocols (HTTPS/TLS). As is true for any internet-connected app, no transmission
                     can be guaranteed to be 100% secure, but we use standard protections where network access occurs.</p>
             </section>
 
             <section>
-                <h2>6. Local Data and Deletion</h2>
+                <h2>7. Local Data and Deletion</h2>
                 <p>Because your data is stored locally on your device, it remains under your control. You can clear
-                    cached content at any time from within the app. Uninstalling VibeFlow completely removes all data
+                    cached content at any time from within the app. Uninstalling MusiFlow completely removes all data
                     stored on your device — there is no server-side copy to delete because we never received one.</p>
             </section>
 
             <section>
-                <h2>7. Children's Privacy</h2>
-                <p>VibeFlow is not directed at children under the age of 13, and we do not knowingly collect information
+                <h2>8. Children's Privacy</h2>
+                <p>MusiFlow is not directed at children under the age of 13, and we do not knowingly collect information
                     from them. Because we do not collect personal data from any user, we do not collect data from
                     children. If you believe otherwise, please contact us.</p>
             </section>
 
             <section>
-                <h2>8. Your Rights and Choices</h2>
-                <p>Since VibeFlow does not collect your personal data, there is no server-side profile to access, edit,
+                <h2>9. Your Rights and Choices</h2>
+                <p>Since MusiFlow does not collect your personal data, there is no server-side profile to access, edit,
                     or delete. You remain in full control through your device:</p>
                 <ul>
                     <li><strong>Manage local data:</strong> Review or clear your library, playlists, and cache within the
                         app or in iOS Settings.</li>
-                    <li><strong>Stop using the app:</strong> Uninstalling VibeFlow removes all locally stored data.</li>
+                    <li><strong>Control the microphone:</strong> Enable or disable microphone access for song
+                        recognition at any time in iOS Settings.</li>
+                    <li><strong>Stop using the app:</strong> Uninstalling MusiFlow removes all locally stored data.</li>
                     <li><strong>Contact us:</strong> For any privacy-related questions, reach out directly using the
                         details below.</li>
                 </ul>
             </section>
 
             <section>
-                <h2>9. Changes to This Policy</h2>
+                <h2>10. Changes to This Policy</h2>
                 <p>We may update this Privacy Policy from time to time. If we make material changes, we will revise the
                     "Last Updated" date at the top of this page. We encourage you to review this policy periodically.</p>
             </section>
 
             <section>
-                <h2>10. Contact Us</h2>
+                <h2>11. Contact Us</h2>
                 <p>If you have any questions, concerns, or suggestions regarding this Privacy Policy, please contact us:
                 </p>
-                <p>Developer: VibeFlow</p>
+                <p>Developer: MusiFlow</p>
                 <p>Email: <a href="mailto:musicflowplayer@163.com" style="color: var(--primary-color);">musicflowplayer@163.com</a></p>
             </section>
         </main>
 
         <footer>
-            <p>&copy; 2026 VibeFlow. All rights reserved.</p>
+            <p>&copy; 2026 MusiFlow. All rights reserved.</p>
         </footer>
     </div>
 </body>
